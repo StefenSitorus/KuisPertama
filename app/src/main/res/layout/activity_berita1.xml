@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="624dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="BERITA 1"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="221dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/jk" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="348dp"
+        android:layout_height="230dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="8dp"
+        android:text="New York - Wakil Presiden Jusuf Kalla (JK) di sidang umum PBB menyinggung soal pentingnya menghormati kedaulatan negara lain. Dia 'menyindir' negara tertentu yang dianggap mendukung gerakan separatis.  Dikonfirmasi usai bicara di sidang umum PBB, JK mengungkap negara yang dimaksud adalah Vanuatu. Negara di Pasifik sisi selatan itu dianggap kerap berbuat ulah dengan memunculkan isu-isu tidak benar tentang pelanggaran HAM di Papua.
+&quot;Ada negara, ya kalau kita sebut di sini seperti Vanuatu, itu yang selalu memunculkan isu yang tidak benar tentang pelanggaran HAM, tentang tidak sahnya bergabungnya Papua ke Indonesia, itu kan melanggar prinsip-prinsip PBB itu sendiri,&quot; kata JK usai sidang umum di Markas PBB, New York, Kamis (27/9/2018).  &quot;Tidak boleh suatu negara untuk katakanlah tidak mengaku apa yang sudah diputuskan oleh PBB itu sendiri,&quot; jelasnya.  JK menjelaskan masuknya Papua menjadi bagian Indonesia merupakan bagian dari resolusi PBB. Oleh karena itu, Vanuatu sebagai anggota PBB harus mengakui resolusi tersebut.
+&quot;Kan masuknya Papua itu kan resolusi PBB, bukan keputusan Indonesia saja. Kita tegas bahwa sekali lagi berbuat itu tentu kita akan juga mempunyai satu cara untuk melawan itu,&quot; tutur JK.  Sebelumnya di sidang umum PBB, JK menyampaikan bahwa ada negara yang coba mengusik kedaulatan Indonesia. Hanya saja JK kala itu tak menyebut negara mana yang dimaksud.  &quot;Indonesia sangat menyesalkan upaya satu negara untuk mendukung atau bahkan yang terburuk menjadi bagian dari gerakan separatis. Tindakan permusuhan ini tidak memiliki tempat di sistem PBB. Suatu tindakan yang jelas melanggar prinsip-prinsip PBB,&quot; tutur JK."
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.157" />
+</android.support.constraint.ConstraintLayout>
